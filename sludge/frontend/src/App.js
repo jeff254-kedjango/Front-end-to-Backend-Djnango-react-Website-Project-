@@ -14,7 +14,7 @@ function App() {
 	});
 
 	useEffect(() => {
-		axiosInstance.get('http://127.0.0.1:8000/api/posts/').then((res) => {
+		axiosInstance.get('https://uda-app-g7ebr.ondigitalocean.app/api/posts/').then((res) => {
 			const allPosts = res.data;
 			setAppState({ loading: false, posts: allPosts });
 		});
