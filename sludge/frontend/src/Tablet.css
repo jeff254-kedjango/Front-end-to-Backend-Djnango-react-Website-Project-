@@ -1,0 +1,92 @@
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .p-card {
+        height: 80vh;
+    }
+
+    .bio {
+        margin-top: 1%;
+    }
+
+    .project-container {
+        height: 100%;
+    }
+
+    .bio-under {
+        flex-direction: column;
+    }
+
+    .title1 {
+        width: 100%;
+    }
+
+    .title2 {
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .p-card {
+        margin-top: 10%;
+    }
+
+
+    .prj-details {
+        margin-left: 8%;
+    }
+
+    .prj-title h1 {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .prj-title p {
+        display: none;
+    }
+
+    .prj-view {
+        width: 60%;
+        height: 25%
+    }
+
+    .pagination {
+        width: 40%;
+    }
+
+    .projects {
+        height: 195vh;
+    }
+
+    .tech-under img {
+        height: 40px;
+        width: 45px;
+    }
+
+    .tech-under p {
+        font-size: 1.3em;
+    }
+
+}
+
+/*Scroll Bar CSS*/
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #001219;
+    box-shadow: inset 0 0 5px #001219;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9d0208;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9d0208;
+}

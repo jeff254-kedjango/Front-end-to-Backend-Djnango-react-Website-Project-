@@ -1,0 +1,627 @@
+@media screen and (max-width: 550px) {
+
+    .side-bar-tena {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: rgba(157, 2, 8, 0.9);
+        height: auto;
+        width: 50%;
+        margin-left: 1%;
+        padding: 1%;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+        color: rgba(240, 248, 255, 1);
+    }
+
+    .side-bar-btn-n {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        border-top-color: rgba(0, 18, 25, 0.5);
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+
+    .side-bar-btn-e {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+
+    .blog-logo span,
+    .logo span {
+        display: none;
+    }
+
+    .modal {
+        height: 82.55%;
+        background-color: transparent;
+    }
+
+    .modal-container {
+        height: auto;
+        width: 100%;
+        margin-top: 292%;
+    }
+
+    element.style {
+        width: 100%;
+    }
+
+    .modal-video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .close-icon {
+        font-size: 1.5em;
+    }
+
+    .under-logo {
+        padding-top: 10%;
+
+    }
+
+
+    .cont-pop {
+        width: 20%;
+    }
+
+    .logo {
+        padding: 1%;
+    }
+
+    .under-logo {
+        flex-direction: column;
+    }
+
+
+    .main h1 {
+        font-size: 3.2em;
+    }
+
+    .main p {
+        font-size: 1.1em;
+    }
+
+    .project-container h1 {
+        font-size: 1.9em;
+    }
+
+    .header-txt {
+        font-size: xx-large;
+    }
+
+    .bread-crumb-button-tech {
+        height: 17%;
+        width: 7%;
+    }
+
+
+    .bio {
+        height: 25vh;
+        margin-top: 2%;
+
+    }
+
+    .bio-under {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title1 {
+        font-size: 0.9em;
+        min-width: 100%;
+        border-top: 2%;
+    }
+
+    .title2 {
+        font-size: 0.6em;
+        width: 100%;
+    }
+
+    .nutri-con {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        height: 123vh;
+    }
+
+    .nutri-button {
+        width: 60%;
+        height: 8vh;
+    }
+
+    .nutri-details {
+        font-size: 1.1em;
+    }
+
+    .nut-card {
+        height: 30vh;
+    }
+
+    .project-container {
+        height: 100%;
+    }
+
+    .project-image-container {
+        flex-direction: row;
+        height: auto;
+        width: 96%;
+
+    }
+
+    .project-cat {
+        display: none;
+    }
+
+    .prj-inline {
+        width: 30%;
+    }
+
+    .project-img {
+        width: 100%;
+        height: 50vh;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    .prj-details {
+        margin-left: 5%;
+    }
+
+    .prj-title h1 {
+        font-size: 1.3em;
+    }
+
+    .prj-title p {
+        font-size: 1em;
+    }
+
+    .prj-view {
+        width: 80%;
+        height: 30%;
+        margin-left: 5%;
+        border-radius: 4px;
+    }
+
+    .downer-container {
+        height: 13vh;
+        margin-top: 2%;
+    }
+
+    .downer-items {
+        font-size: 1.1em;
+    }
+
+    .pagination {
+        position: relative;
+        font-size: 2em;
+        font-weight: 500;
+        width: 50%;
+        margin: 2%;
+
+    }
+
+    .footer {
+        margin-top: 2%;
+        height: 128vh;
+    }
+
+    .tech-skills {
+        height: 100vh;
+        width: 98% !important;
+        justify-content: flex-start;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .techi-cont {
+        height: 10% !important;
+    }
+
+    tech-title {
+        font-size: 3em;
+    }
+
+    .tech-stack {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        height: 100%;
+    }
+
+    .tech-under {
+        height: 50vh;
+        padding: 2%;
+        bottom: 0;
+        margin: 1%;
+    }
+
+    .tech-under p {
+        font-size: 1.4em;
+        margin: 4%;
+    }
+
+    .tech-sub {
+        height: 15%;
+    }
+
+    tech-details {
+        justify-items: flex-start;
+        height: 80%;
+    }
+
+    .tech-under img {
+        height: 45px;
+        width: 50px;
+        margin-top: 4%;
+    }
+
+    .ftness-buttons-one {
+        margin-top: 30%;
+    }
+
+    .blog {
+        height: 130vh;
+    }
+
+    .blog-head {
+        font-size: 0.8em;
+        height: 25vh;
+    }
+
+    .blog-cont {
+        flex-direction: column;
+    }
+
+    .blog-cont {
+        height: 80vh;
+    }
+
+    .blog-vd {
+        width: 100%;
+        height: 29vh;
+        margin-top: 10%;
+    }
+
+    .blog-cards-container {
+        height: auto;
+    }
+
+    .vd-sidebar {
+        width: 14%;
+    }
+
+    .vd-carousel {
+        width: 86%;
+    }
+
+    .vd-sidebar-btn-up {
+        border-bottom-color: rgba(240, 248, 255, 0.8);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+
+    .vd-details {
+        height: 25%;
+    }
+
+    .details-card {
+        font-size: 0.6em;
+        padding: 2%;
+    }
+
+    .lifestyle-img h1 {
+        font-size: 1.5em;
+        right: 45%;
+    }
+
+    .blog-plates {
+        width: 100%;
+        padding-top: 2%;
+        height: 45vh;
+    }
+
+    .blog-plates h3 {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-left: 45%;
+    }
+
+    .blog-single-content h1 {
+        font-size: 2em;
+
+    }
+
+    .blog-single-content h3 {
+        font-size: 1.2em;
+        font-weight: 300;
+
+    }
+
+    .blog-single-content p {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .projects {
+        height: auto;
+    }
+
+    .p-card {
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .project-container {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .project-cat {
+        width: 25%;
+    }
+
+    .project-media {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-media-main {
+        flex-direction: column;
+        margin-bottom: 8px;
+    }
+
+    .blog-single-content h4 {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .blog-related-items {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .blog-related-section {
+        margin-top: 5%;
+        height: auto;
+    }
+
+    .blog-related-section-nana {
+        margin-top: 5%;
+        height: auto;
+    }
+
+    .blog-related-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .blog-related-title {
+        align-items: flex-start;
+        margin-bottom: 10%;
+    }
+
+    .blog-related-title h1 {
+        margin-left: 32%;
+    }
+
+    .related-items {
+        margin-bottom: 2%;
+        height: 90%;
+    }
+
+    .blog-single {
+        height: 276vh;
+    }
+
+    .blog-single-nana {
+        height: auto;
+    }
+
+    .blog-single-container {
+        height: auto;
+    }
+
+    .related-items-header {
+        height: 35%;
+    }
+
+    .pagination-related {
+        margin-top: 5%;
+    }
+
+    .pagination-nut {
+        width: 90%;
+    }
+
+    .nutrition-single {
+        height: auto;
+        padding: 1%;
+    }
+
+
+
+    .nutrition-single-container {
+        height: auto;
+    }
+
+    .nutrition-related-card {
+        flex-direction: column;
+        height: 45%;
+    }
+
+    .exercise-nav-buttons-e,
+    .exercise-nav-buttons-e-act,
+    .exercise-nav-buttons-b,
+    .exercise-nav-buttons-b-act,
+    .exercise-nav-buttons-b:hover,
+    .exercise-nav-buttons-e:hover {
+        display: none;
+    }
+
+
+
+    .ftness-srch input {
+        width: 90%;
+        left: 10%;
+        margin: 2%;
+    }
+
+    .exercise-menu-btn {
+        position: absolute;
+        display: contents;
+        width: 100%;
+        height: 100%;
+        color: aliceblue;
+        font-size: 1.5em;
+    }
+
+
+    .ex-cat {
+        display: none;
+    }
+
+    .ex-con {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    }
+
+    .ex-card {
+        height: 20vh;
+        margin: 0.5%;
+    }
+
+    .exercise {
+        height: auto;
+    }
+
+    .ex-details h3 {
+        font-size: 1em;
+    }
+
+    .ex-details p {
+        font-size: 0.8em;
+    }
+
+    .bladi-card {
+        flex-direction: column;
+        margin-top: 0%;
+        justify-content: flex-start;
+    }
+
+    .bladi-items {
+        margin-top: 1.5%;
+        height: 60%;
+    }
+
+    .bladi-cards-container {
+        height: auto;
+    }
+
+    .pagination-nut-exercise {
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .bread-crumb-button {
+        width: 15%;
+        height: 8%;
+    }
+
+    .bread-crumb-button-tech {
+        width: 15%;
+        margin-bottom: 75%;
+    }
+
+    .fback {
+        flex-direction: column;
+    }
+
+    .fback-words {
+        height: 25%;
+        width: 100%;
+    }
+
+    .fback-form {
+        height: 75%;
+        width: 100%;
+    }
+
+    .fback-words h3 {
+        font-size: 1.2em;
+        color: aliceblue;
+    }
+
+
+    .fback-words h5 {
+        font-size: 1.2em;
+        color: rgba(157, 2, 8, 0.7);
+    }
+
+    .project-pagination {
+        position: relative;
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+        height: 2%;
+        font-size: 1.7em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        left: 1%;
+        margin-left: 0%;
+    }
+
+    .bread-crumb-button-blog {
+        height: 7%;
+        width: 15%;
+        margin-top: 15%;
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+
+    .ex-item {
+        height: auto;
+    }
+
+    .quick-guide {
+        border-radius: 8px;
+        width: 70%;
+    }
+
+
+}
+
+/*Scroll Bar CSS*/
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #001219;
+    box-shadow: inset 0 0 5px #001219;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9d0208;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9d0208;
+}
