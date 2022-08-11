@@ -149,7 +149,7 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://kwemangenyagrowa-vp7xd.ondigitalocean.app/"
+    "https://kwemangenyagrowa-vp7xd.ondigitalocean.app"
 ]
 
 # Custom user model
