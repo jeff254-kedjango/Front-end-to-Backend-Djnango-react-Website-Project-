@@ -35,7 +35,7 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 
 # ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
-#                           "uda-app-g7ebr.ondigitalocean.app").split(",")
+#                           "orca-app-sdz5v.ondigitalocean.app").split(",")
 
 ALLOWED_HOSTS = []
 
