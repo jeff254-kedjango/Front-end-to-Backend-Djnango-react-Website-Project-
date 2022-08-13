@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://uda-app-g7ebr.ondigitalocean.app/api/';
+const baseURL = 'https://orca-app-sdz5v.ondigitalocean.app/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
