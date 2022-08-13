@@ -14,7 +14,7 @@ function App() {
 	});
 
 	useEffect(() => {
-		axiosInstance.get('https://uda-app-g7ebr.ondigitalocean.app/api/posts/').then((res) => {
+		axiosInstance.get('https://orca-app-sdz5v.ondigitalocean.app/api/posts/').then((res) => {
 			const allPosts = res.data;
 			setAppState({ loading: false, posts: allPosts });
 		});
