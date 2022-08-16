@@ -167,8 +167,8 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://kwemangenyagrowa-sqpjm.ondigitalocean.app"
-]
+    "https://kwemangenyagrowa-sqpjm.ondigitalocean.app","https://kwemangenyagrowa.me.ke"
+  ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
     r"^https://\w+\.example\.com$",
