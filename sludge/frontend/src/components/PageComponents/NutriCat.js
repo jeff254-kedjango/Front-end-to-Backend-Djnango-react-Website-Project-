@@ -9,7 +9,7 @@ function NutriCat({ handleNutriCategory, bar }) {
         <div className={bar === 0 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(0)}>
             <p>all</p>
         </div>
-        <div className={bar === 1 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(1)}>
+        <div className={bar === 5 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(1)}>
             <p>weight loss</p>
         </div>
         <div className={bar === 4 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(4)} >
