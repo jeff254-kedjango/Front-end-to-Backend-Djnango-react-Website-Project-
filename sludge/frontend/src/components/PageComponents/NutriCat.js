@@ -12,11 +12,11 @@ function NutriCat({ handleNutriCategory, bar }) {
         <div className={bar === 5 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(1)}>
             <p>weight loss</p>
         </div>
-        <div className={bar === 4 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(4)} >
+        <div className={bar === 2 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(4)} >
 
             <p>weight gain</p>
         </div>
-        <div className={bar === 2 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(2)} >
+        <div className={bar === 4 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(2)} >
             <p>performance</p>
         </div>
         <div className={bar === 3 ? 'nut-item-active':'nut-item'} onClick={() => handleNutriCategory(3)} >
