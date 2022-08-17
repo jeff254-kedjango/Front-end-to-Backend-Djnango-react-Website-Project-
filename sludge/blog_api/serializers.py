@@ -7,7 +7,7 @@ class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = ('id', 'title', 'author', 'excerpt', 'post_image',
-                  'inline_image', 'video', 'content', 'status','slug', 'published', 'category')
+                  'inline_image', 'content', 'content_two', 'status', 'slug', 'published', 'category')
 
 
 class ProjectsSerializer(serializers.ModelSerializer):
@@ -20,8 +20,8 @@ class ProjectsSerializer(serializers.ModelSerializer):
 class NutritionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Nutrition
-        fields = ('id', 'title', 'category', 'description', 'post_image',
-                  'inline_image', 'published','slug')
+        fields = ('id', 'title', 'category', 'excerpt', 'description', 'content_two', 'post_image',
+                  'inline_image', 'published', 'slug')
 
 
 class FeedbackSerializer(serializers.ModelSerializer):
