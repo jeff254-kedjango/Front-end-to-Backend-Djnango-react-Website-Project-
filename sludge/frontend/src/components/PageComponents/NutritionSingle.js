@@ -104,6 +104,7 @@ function NutritionSingle() {
                 <h1>{document.title}</h1>
                 <p>{document.excerpt}</p>
                 <p>{document.description}</p>
+                <p>{document.content_two}</p>
                 <h4>{document.published}</h4>
             </div>
         </div>
