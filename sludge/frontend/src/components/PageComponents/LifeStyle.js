@@ -150,6 +150,7 @@ function LifeStyle() {
               {currentImage.map((item) => (
                 < DetailsCard item={item} />
               ))}
+              {currentImage.length === 0 && <div className='project-culture'><h1>Loading content...referesh page if this persists</h1></div> }
             </div>
           </div>
           <div className='blog-plates'>
@@ -157,6 +158,7 @@ function LifeStyle() {
             {currentPost.map((item) => (
                < PostCard item={item} />
             ))}
+            {currentPost.length === 0 && <div className='project-culture'><h1>Loading content...referesh page if this persists</h1></div> }
             <div className='blog-pagination'>
                 <div className='pg-buttons' onClick={lastPage} >
                     <p>previous</p>
