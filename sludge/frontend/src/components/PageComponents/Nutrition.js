@@ -8,6 +8,7 @@ function Nutrition({nutrition, lastPage, nextPage }) {
         {nutrition.map((item) => (
           <NutritionCard item={item} />
         ))}
+        {nutrition.length === 0 && <div className='project-culture'><h1>Loading content...refresh page if this persists</h1></div> }
       </div>
       <div className='pagination-nut'>
           <div className='pg-buttons' onClick={lastPage} >
