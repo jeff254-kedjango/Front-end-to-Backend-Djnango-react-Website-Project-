@@ -104,6 +104,7 @@ function BlogSingle() {
                 <h1>{blog.title}</h1>
                 <h3>{blog.excerpt}</h3>
                 <p>{blog.content}</p>
+                <p>{blog.content_two}</p>
                 <h4>{blog.published}</h4>
             </div>
         </div>
