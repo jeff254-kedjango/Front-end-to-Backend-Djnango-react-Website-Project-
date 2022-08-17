@@ -1,5 +1,9 @@
 import React from 'react';
 import NutritionCard from './NutritionCard';
+import '../../App.css';
+import '../../MiniLaptop.css';
+import '../../Mobile.css';
+import '../../Tablet.css';
 
 function Nutrition({nutrition, lastPage, nextPage }) {
   return (
