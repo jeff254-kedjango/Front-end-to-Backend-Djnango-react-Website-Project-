@@ -54,6 +54,7 @@ class Post(models.Model):
     video = models.FileField(upload_to=upload_to, null=True, blank=True, validators=[
                              FileExtensionValidator(allowed_extensions=['MOV', 'avi', 'mp4', 'webm', 'mkv'])])
     content = models.TextField()
+    content_two = models.TextField(null=True, blank=True)
     slug = models.SlugField(max_length=250, blank=True, null=True)
     published = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(
@@ -116,7 +117,9 @@ class Nutrition(models.Model):
     category = models.ForeignKey(NutritionCategory, on_delete=models.PROTECT)
     post_image = models.ImageField(
         _('Image'), upload_to=upload_to, default='media/default.jpg', blank=True, null=True)
+    excerpt = models.TextField(null=True, blank=True)
     description = models.TextField()
+    content_two = models.TextField(null=True, blank=True)
     inline_image = models.ImageField(
         _('Image'), upload_to=upload_to, default='media/default.jpg', blank=True, null=True)
     slug = models.SlugField(max_length=250, blank=True, null=True)
